@@ -1,0 +1,30 @@
+@media screen and (max-width: 625px) {
+    nav{
+        margin: 0;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .leftSection{
+        width: 95%;
+    }
+    .rightSection{
+        width: 95%;
+    }
+    .main{
+        flex-direction: column;
+    } 
+  }
+
+@media screen and (max-width: 500px){
+    .article-block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .article-left{
+        width: 100%;
+    }
+    .article-right{
+        width: 100%;
+    }
+}
